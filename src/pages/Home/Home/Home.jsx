@@ -1,5 +1,6 @@
 import PopulerMenu from "../../PopulerMenu/PopulerMenu";
 import Banner from "../Banner/Banner";
+import Card from "../Card/Card";
 import Category from "../Category/Category";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Banner/>
       <Category/>
       <PopulerMenu/>
+      <Card/>
     </div>
   );
 }
