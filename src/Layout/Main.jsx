@@ -5,7 +5,9 @@ import NavBer from "../pages/Shared/NavBar/NavBer";
 const Main = () => {
   return (
     <div>
+      <div>
       <NavBer/>
+      </div>
       <Outlet/>
       <Footer/>
     </div>
