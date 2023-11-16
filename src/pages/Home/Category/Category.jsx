@@ -17,7 +17,7 @@ const Category = () => {
     <div className='max-w-6xl mx-auto my-12'>
       <SectionTitle
       subHeading={"From 11:00am to 10:00pm"}
-      heading={"order online"}
+      heading={"order online"}                       
       >
       </SectionTitle>
       <Swiper
