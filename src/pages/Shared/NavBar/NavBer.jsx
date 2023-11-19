@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom";
+
 const NavBer = () => {
 
     const navOptions = <>
-      <li>Home</li>
-      <li>CONTACT us</li>
-      <li>DASHBOARD</li>
-      <li>Our Menu</li>
-      <li>Our Shop</li>
+      <li><Link to="/">Home</Link></li>
+      <li><Link>CONTACT us</Link></li>
+      <li><Link>DASHBOARD</Link></li>
+      <li><Link to="/menu">Our Menu</Link></li>
+      <li><Link>Our Shop</Link></li>
     </>
 
   return (
     <div className="">
-      <div className="navbar fixed z-10 opacity-30  bg-black text-white">
+      <div className="navbar fixed z-30 opacity-40 bg-black text-white">
         <div className="navbar-start">
           <a className="btn btn-ghost text-xl">daisyUI</a>
         </div>
