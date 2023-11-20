@@ -4,10 +4,8 @@ const NavBer = () => {
 
     const navOptions = <>
       <li><Link to="/">Home</Link></li>
-      <li><Link>CONTACT us</Link></li>
-      <li><Link>DASHBOARD</Link></li>
       <li><Link to="/menu">Our Menu</Link></li>
-      <li><Link>Our Shop</Link></li>
+      <li><Link to="/order/salad">Order Food</Link></li>
     </>
 
   return (
